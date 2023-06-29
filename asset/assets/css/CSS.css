@@ -1,0 +1,80 @@
+.LOGO {
+    margin-left: 1%;
+    margin-top: 1%;
+}
+
+.MENU {
+    margin-top: 1%;
+}
+
+.message {
+    position: absolute;
+    z-index: 100;
+    top: 0%;
+    width: 100%;
+    visibility: hidden;
+}
+
+#M.ON {
+    position: absolute;
+    z-index: 100;
+    top: 0%;
+    width: 100%;
+    visibility: visible;
+}
+
+    /* -webkit-animation-delay: 2.5s;
+    -moz-animation: 0.5s;
+    animation-delay: 2.5s;
+    -webkit-animation-duration: 0.5s;
+    -webkit-animation-fill-mode: both;
+    animation-duration: 0.5s;
+    animation-fill-mode: both;
+    -webkit-animation-name: fadeout;
+    animation-name: fadeout; */
+
+
+/* @-webkit-keyframes fadeout {
+    
+    from {
+        opacity: 1;
+        -webkit-transform: translate3d(0 -100 0);
+        transform: translate3d(0 -100 0);
+    }
+
+    to {
+        opacity: 0;
+        transform: none;
+    }
+}
+
+@keyframes fadeout {
+
+    from {
+        opacity: 1;
+        -webkit-transform: translate3d(0 -100 0);
+        transform: translate3d(0 -100 0);
+    }
+
+    to {
+        opacity: 0;
+        transform: none;
+    }
+} */
+
+
+
+.video {
+	position: absolute;
+	background-repeat: no-repeat;
+	justify-content: stretch;
+    overflow: hidden;
+    object-fit: cover;
+    transform: scale(1.2);
+	z-index: -10;
+	bottom: 13.5%;
+    right: 10%;
+	display: flex;
+	width: 100vw;
+	height: 100vh;;
+}
